@@ -1,0 +1,17 @@
+body{
+    background-color:#D4ECDD
+  }
+  hr{
+    /* background-color:none; */
+    border-style:  none;
+    border-top-style: dotted;
+    /* height: 0px; */
+    
+    border-color:black;
+    border-width: 10px;
+    width: 30%;
+
+  }
+  img{
+    border-radius: 50%;
+  }

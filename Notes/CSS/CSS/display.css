@@ -1,0 +1,64 @@
+/* -------------Display Important Properties--------------- */
+/* 
+1. block[take all width of container]
+ex->div,p,heading,form
+Note:->start from new line each new block element
+     ->take full width of container
+     ->we can manipulate height and width
+
+
+
+
+
+
+2.inline[take only needed width]
+ex->a,img,span
+Note: ->not start from new line
+      ->take only needed width not full width
+      ->we cannot manipulate height and width
+
+
+
+
+
+
+remaining two properties not have default in html tag majority some time may be
+3.inline-block[work same as inline as well as block]
+4.none
+
+we can change these display property, we can make block to inline vice-versa
+*/
+
+#div1{
+    padding: 20px;
+    border:2px solid black;
+    width:200px;
+    height:100px;
+    display:inline-block;
+    /* used diplay properties none for hide element remove occupie space*/
+    /* display:none; */
+    /* display perperties visibility is same as none but occupie space same as it is */
+    /* visibility:hidden; */
+    background-color:purple;
+    color:white;
+}
+
+#div2{
+    padding:20px;
+    border:2px solid red;
+    width:200px;
+    height:100px;
+    display:inline-block;
+    background-color:purple;
+    color:white;
+}
+
+#div3{
+    padding:20px;
+    border:2px solid blue;
+    width:200px;
+    height:100px;
+    display:inline-block;
+    background-color:purple;
+    color:white;
+}

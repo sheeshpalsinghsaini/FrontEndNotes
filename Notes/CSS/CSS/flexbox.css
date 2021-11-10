@@ -1,0 +1,43 @@
+/* Make fexible or responsibe website without float  */
+
+
+body{
+    background-color:hotpink;
+}
+
+.flex-container{
+    background-color:blueviolet;
+    /* margin:0px; */
+    display:flex;
+    /* flex-direction:row; by default */
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column; */
+    /* flex-direction:column-reverse; */
+    /* flex-wrap:nowrap; */
+    /* flex-wrap:wrap; */
+    /* flex-wrap:wrap-reverse; */
+    
+    /* ==========================justify ->used for alignment================= */
+    /* justify-content:center; */
+    /* justify-content:flex-start; */
+    /* justify-content:flex-end;  */
+    /* justify-content:space-around; */
+    justify-content:space-between;
+    /* align-items:stretch;by default */
+    align-items:center;
+    align-items:flex-start;
+    align-items:flex-end;
+    height:400px;
+    
+}
+
+.flex-child{
+    background-color:black;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width:100px;
+    text-align:center;
+    /* below work is done by flex which is define in parent container */
+    /* display:inline-block; */
+}

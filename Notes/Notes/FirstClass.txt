@@ -1,0 +1,106 @@
+#Topics : How internet works,Broswer HTML relation + HTML Basics
+[h1-h6,p,b,i,sup,sub,strong,small,big,mark,table,list,br,
+iframe,img,a]
+
+
+>How Internet works?
+->Resource:[used to do something meaningfull work]
+    -files
+    -Network Capacity 
+=>Resource available inside computers(files)
+=>Sharing of Resource
+    -copy the file to a pen drive=>transport the pendrive=>copy the file on a different PC.
+    -not very scalable(1 million users want the file at the same time)
+    -put your file on a Network(connect to their Network and download the file)
+
+-Servers
+  =>Servers are owners/managers of these Resource(eg. files)
+
+-Clients
+  =>users/computers/machines that want the file
+
+
+Explorer(use to explore the Network and see which file are present)
+->in Internet Area need Internet Explorer
+
+Browser:
+    ->Applications that help us in exploring other Network
+    ->Browsers acts as a Client on your behalf=>GUI[we can use cmd #curl google.com]
+
+GUI(Graphical User Interface)
+CLI(Command-line user Interface)
+
+
+GUI: Browser is GUI 
+-> Need to display something[button,link etc]=>someone needs to code it.
+-> you can't code in any language(the browser does not understand everything)
+
+#What is that subset of things that the browsers understand?
+    ->HTML(Hypertext Markup(used for describing or introduce behavior) language)
+    ->CSS(Cascading Style Sheet)
+    ->JS(JavaScript)
+        =>DOM
+            =>React
+        =>AJAX
+        =>BOM
+    ->WASM(Web Assembly) very recent addition to the browser
+
+
+
+
+======================= HTML ===================================
+It is Markup language
+(just "describing" structure of the page=>cannot be used(generally) to introduce behaviour)
+
+-XML(eXtensible Markup language)
+
+What does HTML use for describing the structure of a page?
+=>structure of a page=>header+footer+paragraph+links+etc
+
+
+# Pre-define Elements/tags:
+    =>Attributes
+
+
+How to write elements?(i.e its syntax)
+=> <html>This is tag declaration starting and ending tags</html>
+
+Font name,size,color=>chosen by the browser by default(default style/user agent style)
+
+
+
+=========tags===========
+>Headings: use h1 to h6 tag 
+>paragraph: use p tag
+
+===============form==========================
+form(method,action), input (email,text,password,date url,radio,checkbox,range,color),
+select, name, value, inline elements, block elements, div, span, comments, CSS Basics
+(inline, internal, class, id, properties(fonts, color, text))
+
+sub tag used for =subscript(logarithmic formulas)
+
+=> Elements
+    -inline elements(span)
+        do not start on a new line
+    -block elements (div)
+        always start on a new line (even when the previous line has space)
+
+=======================CSS[Cascading Style Sheet] Rule=======================
+CSS works by associating rules with HTML elements.
+These rules govern how the content of specified elements should be displayed.
+
+                Adjacent Sibling Selector
+The adjacent sibling combinator(+) separates two selectors matches the second
+element only if it immediately follows the first element, and both are children
+of the same parent element.
+
+                General Sibling Selector
+Matches an element that is a sibling of another, although it does not have to be the
+directly preceding element 
+e.g h1 ~p{
+
+}
+
+if you had two <p> elements that are siblings of an <h1> element, 
+this rule would apply to both

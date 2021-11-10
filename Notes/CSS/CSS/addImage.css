@@ -1,0 +1,22 @@
+#bg-image{
+    /* width: 500px; 
+     height: 200px; */
+    /* background-color: antiquewhite; */
+    /* background-image: url("/images/cat.jpg"); */
+
+    background-image: url("/images/91-magazine-qFFS4I4hdIE-unsplash.jpg") ,url("/images/andrew-neel-cckf4TsHAuw-unsplash.jpg");
+    
+    background-position: center;
+    /* background-size: contain; */
+    background-size: 200px 200px, 400px 200px;
+    /* background-size: 100% 100%; */
+    /* //complete fill in box */
+
+
+    /* background-attachment: scroll; */
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat,no-repeat ;
+    background-position: left top,center;
+    
+
+}

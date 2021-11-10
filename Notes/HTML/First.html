@@ -1,0 +1,635 @@
+<!-- This is my first html page -->
+
+<!-- w3c orgranization which mentain the rules of html website
+bcz it doesnot show error of any types  -->
+
+<!DOCTYPE html>
+<!-- <html lang="hi"> -->
+<html lang="en">
+    <!-- <html dir="rtl"> for right to left writing content-->
+    <head >
+        <!-- SEO tag
+        1.title tag
+        2.description in meta tag
+        3.keyword in meta tag
+        4.canonical tag(use for tell browser that content is same in
+        both page)
+        5.robot tag(browser crol or not)
+     -->
+        <title>This is title</title>
+        <meta name="description" content="start writing content" />
+        <meta name="keywords" content="new, car" /> 
+        <link rel="canonical" href="car.html" />
+        <meta name="robots" content="noindex/index, nofollow/follow"> 
+        
+
+
+        <!-- link favicon into website -->
+        <link rel="stylesheet" href="address/of/icon.jpg" type="image/jpeg" size="size/icon/accroding to website">
+
+     <!-- viewport for responsive website -->
+     <meta name="viewport" content="width=device-width, inital-scale=1">
+
+     <!-- for right to left website like urdu -->
+     <!-- use direction attribute in html tag -->
+
+
+
+
+
+
+    </head>
+
+
+
+
+    <!-- -------------------------------------------------------- -->
+    <body>
+        <br>
+        <br>
+        <br>
+        <!-- HTML input attribute -->
+
+        <form action="">
+            <input type="text" placeholder="Enter your Name:" required><br>
+
+        <input type="text" value="Sheeshpal" readonly disabled size="50" maxlength="50">
+        <input type="submit" value="Go">
+        <input type="number" min="10" max="20" value="1" step="2">
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <!-- file upload -->
+        <input type="file" multiple>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <!-- form -->
+        <!-- 
+            input type:
+            1.text
+            2.submit
+            3.color
+            4.date
+            5.email
+            6.hidden
+            7.Number
+            8.password
+            9.reset
+            10.time
+            11.url
+            12.range(min,max=value)
+         -->
+        <form action="" method="">
+            <label for="">Name:</label>
+            <input type="text"> <br>
+            <input type="submit" value="submit form">
+        </form>
+
+        <br>
+        <br>
+        <br>
+        <!-- HTML Image Map ,in image 
+        you can give link for separate area -->
+        
+        <br>
+        <br>
+        <br>
+        <!-- Semantic elements = elements with a meaning
+        A semantic element clearly describes its meaning to both the 
+    browser and the developer
+    Example of semantic elements: <form>,<table> and <article>
+        clearly defines its content.
+    
+    New SEmantic Elements in HTML5
+    <article>
+        <aside>
+            <details>
+                <figcaption>
+                    <figure>
+                        <footer>
+                            <header>
+                                <main>
+                                    <mark>
+                                        <nav>
+                                            <section>
+                                                <summary>
+                                                    <time>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+        Non-semantic elements tell nothing about its content.
+        for examples: <div>and<span>
+     -->
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- imoges -->
+        <p>
+            &#128516;
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <!-- for giving space b/w two word -->
+        <p>Hello &nbsp;&nbsp;&nbsp;&nbsp; World</p>
+        <br>
+        <!-- html symbol -->
+        <p>&copy;</p><br>
+        <p>&copy;</p>
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <!-- HTML Entites, used for show html tag in browser
+        ,it is also used for all special symbal -->
+        <!-- using name -->
+        &lt;div&gt;
+        <!-- using number -->
+        <br>
+        &#60;div&#62;
+
+
+
+
+
+<br>
+<br>
+
+        <!-- inbuild google map -->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27928.122752511175!2d78.24471456273903!3d28.95726936698214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390b9f058739b5d9%3A0xb0e2205cefeb943d!2sDhanaura%2C%20Uttar%20Pradesh%20244231!5e0!3m2!1sen!2sin!4v1632452722055!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <!-- Embedded youtube videos -->
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/xSz_8kA72oU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+
+        <!-- inbuild pdf in browser
+        2 ways
+        1. embed tag
+        1. iframe
+        3. object
+        -->
+
+        <!-- <embed src="./pdf/Internshala.pdf" type="application/pdf" width="500" height="300"> -->
+
+            <!-- <iframe src="./pdf/Internshala.pdf" frameborder="0" width="500" height="300"></iframe> -->
+
+            <object data="./pdf/Internshala.pdf" width="500" height="300" type="application/pdf"></object>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Audio tag -->
+        <!-- <audio  controls>
+            <!-- <source src=".audio/motivation.mp3" type="audio/mpeg"> -->
+            <source src="./audio/motivation.mp4" type="audio/mpeg">
+            your browser doesn't not support audio file
+        </audio> -->
+
+        <!-- <video  width="200" height="100" controls>
+            <source src="./video/Billions.mp4" type="video/mp4">
+        </video> -->
+
+
+        <!-- <video  width="200" height="100" controls autoplay>
+            <source src="./video/Billions.mp4" type="video/mp4">
+            your browser doesn't support video
+        </video> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <!-- iframe used for import any website in our website -->
+
+        <iframe src="https://www.ndtv.com/" height="500" width="400" ></iframe>
+        <iframe src="https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en" height="500" width="400" ></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- div & span -->
+
+        <div style="border: 1px solid red;">Divrandom</div>
+        <!-- <div>random</div> -->
+
+        <br>
+        <br>
+        <span style="border: 1px solid red;">SpanRandom</span>
+        <!-- <span>SpanRandom</span> -->
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+
+        <!-- Table -->
+
+        <table border="1">
+            <caption>Name of Table</caption>
+            <thead style="color: red;">
+                <th>Col1</th>
+                <th>Col2</th>
+                <th>Col3</th>
+
+            </thead>
+            <!-- <tr>
+                <th>col 1</th>
+                <th colspan="2">col 2</th>
+                <th>col 2</th>
+                <th>col 3</th>
+            </tr> -->
+
+
+            <tbody style="color: green;">
+                <tr>
+                    <!-- <th rowspan="3">row1</th> -->
+                    <!-- <th>row1</th> -->
+                    <td>data 1</td>
+                    <td>data 1</td>
+                    <td>data 1</td>
+                </tr>
+                <tr>
+                    <!-- <th>row2</th> -->
+                    <td>data 2</td>
+                    <td>
+                        <table border="1">
+                            <tr>
+                                <td>d1</td>
+                                <td>d2</td>
+                            </tr>
+                            <tr>
+                                <td>d1</td>
+                                <td>d2</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>data 2</td>
+                </tr>
+                <tr>
+                    <!-- <th>row3</th> -->
+                    <td>data 3</td>
+                    <td>data 3</td>
+                    <td>data 3</td>
+                </tr>
+                <tfoot style="color: blue;">
+                    <th>Col1</th>
+                    <th>Col2</th>
+                    <th>Col3</th>
+                </tfoot>
+
+            </tbody>
+           
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- Order list -->
+        <p>unorder list</p>
+        <ol type="I">
+            <li>Coffe
+                <ul>
+                    <li>Coffee type1</li>
+                    <li>Coffee type2</li>
+                    <li>Coffee type3</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+            <li>Tea</li>
+            <li>Fruit</li>
+        </ol>
+
+
+        <!-- Unorder list -->
+        <ul style="list-style-type: circle;">
+            <li>Coffee
+                <ol>
+                    <li>type1 coffe</li>
+                    <li>type2 coffe</li>
+                    <li>type3 coffe</li>
+                </ol>
+            </li>
+            <li>Milk</li>
+            <li>Tea
+                <ol>
+                    <li>Tea1</li>
+                    <li>Tea2</li>
+                    <li>Tea3</li>
+                </ol>
+            </li>
+        </ul>
+
+
+
+        <!-- Description list -->
+        <dl>
+            <dt>Coffee</dt>
+            <dd>-Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>-white cold drink</dd>
+        </dl>
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+        <!-- <marquee behavior="" direction="down">This is moving text</marquee> -->
+        <img src="./images/atoms.jpg"  alt="AtomsImage" width="250" height="200">
+
+        <p><a href="mailto:123sheeshpalsinghsaini@gmail.com?subject=Hello how are you">123sheeshpalsinghsaini@gmail.com</a></p>
+
+
+        <br>
+        <h1>H1 Heading tag</h1>
+        <h2>H2 Heading tag</h2>
+        <h3>H3 Heading tag</h3>
+        <h4>H4 Heading tag</h4>
+        <h5>H5 Heading tag</h5>
+        <h6>H6 Heading tag</h6>
+        <h7>H7 Heading tag// it give no effect.bcz only 6 heading is available</h7>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quidem commodi dolore et! Odit, officiis, earum optio ullam incidunt omnis illo magni vero delectus minima fugit, natus dolor laudantium ipsa.
+            <br>
+            <br>
+
+
+
+
+
+
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore nisi a dolor quod assumenda, nostrum incidunt nam, earum alias in qui repudiandae! Fuga nulla quisquam fugiat pariatur et incidunt. 
+            <br>
+            <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam reprehenderit ratione aliquam perspiciatis, quaerat voluptates iste molestias eius delectus facilis quos ad voluptate assumenda provident quibusdam labore est vero numquam. 
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium dignissimos aliquam iure perferendis vero ratione accusantium voluptas magni itaque illo fugit quis, cupiditate id minima consectetur eos doloribus maiores?
+        </p>
+
+        <pre>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore exercitationem vero maxime voluptatem voluptate magnam sint nemo in neque quis, totam quas eum amet aspernatur nam, ea qui assumenda provident?
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates nisi saepe maxime, quibusdam explicabo aliquid qui, error ratione odit, nihil incidunt provident quidem voluptate non. Consectetur deleniti magni consequuntur rem.
+        </pre>
+
+
+        <p>This is paragr<small>aph</small></p>
+        <mark>this is used for heilight the text</mark>
+
+        <del>used for cross the text</del>
+        <ins>used for insert word/to underline the word</ins>
+
+        <h1>
+            x<sub>2</sub> <br>
+            y<sup>2</sup>
+        </h1>
+
+        <p>
+            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veniam illum voluptatem beatae atque sequi omnis eveniet maxime cumque deserunt! Modi consequatur dolorum expedita dicta exercitationem</q>. Ipsa ratione aut quas!
+        </p>
+
+        <q>used for qutetion/it's your qutetion</q>
+
+        <blockquote cite="https://www.google.com">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos aspernatur veritatis repudiandae aperiam voluptas iusto deleniti nam consequatur mollitia ipsam, culpa aliquid consequuntur quas asperiores sit architecto non et modi!
+            other author qutetion
+        </blockquote>
+
+        <abbr title="World Health Organization">WHO</abbr>
+
+        <address>
+
+            used for addres
+            Moh. katra mandi dhanaura
+            Amroha, uttar pradesh
+        </address>
+
+        <cite>The Lost Kid</cite> is write by .........
+        <br>
+        
+
+
+        <a href="https://www.google.com" target="_blank" title="Google Hame Page">Read More</a>
+
+     <p>   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error numquam harum odio, minima tenetur corporis repellendus, iure provident maxime sit quisquam magnam eligendi delectus quos ex nisi accusamus quas? Dolore ipsum vero adipisci eligendi, non quos illum repellat vitae veniam quod, necessitatibus molestias fuga laboriosam cum velit sapiente deserunt tempora corporis consequuntur! Fugiat quam pariatur molestiae, eum maiores adipisci eius numquam omnis iure ullam autem blanditiis, aspernatur cupiditate quo minus, excepturi repudiandae. Ipsa blanditiis veritatis quo perferendis mollitia ut aut fugit maiores. Nam dolor atque omnis dolorem a architecto perspiciatis sed debitis quaerat totam magnam deleniti facere vero hic expedita rem ipsum quas dignissimos tenetur veniam non error, veritatis eius. Asperiores quia laborum, esse ea temporibus aspernatur. Dolorum qui expedita amet corrupti perspiciatis quidem dolore, minima recusandae eaque ad rerum hic aspernatur illum, cupiditate, dolores commodi! Quia similique natus voluptate saepe blanditiis illo veniam molestias architecto provident magnam repellat, excepturi molestiae dolorum! Sit hic perspiciatis magni. Officiis veniam id suscipit inventore doloribus cumque delectus voluptatum tempora </p>
+     <a href="#local">Go to Last paragraph</a>
+        
+      <p>
+        autem! Eaque laudantium ab nisi! Omnis aliquid sequi numquam perferendis quod voluptatem hic accusamus, sunt itaque consectetur soluta corporis consequatur tempora dicta illum, maxime atque illo adipisci repellendus cupiditate fugit eveniet vitae! Esse eius saepe, laborum iusto amet autem repellat asperiores itaque laudantium soluta, id suscipit nostrum expedita quasi? Iste vitae sit necessitatibus, aspernatur natus quis eius dolore eligendi perferendis fugiat impedit quam praesentium ullam cum nostrum optio fuga, doloremque esse molestiae autem culpa. Error dignissimos nulla quo autem, numquam harum expedita ipsum velit explicabo eius itaque voluptas ducimus veniam cupiditate sapiente deleniti dicta consequatur corporis obcaecati quae fuga odio ad. Exercitationem voluptatem consequatur qui aut, laudantium ullam, nemo nulla in ipsa, cum at magni. Illo sit excepturi libero ratione, ipsum nihil doloremque officiis necessitatibus quibusdam modi quam, fuga nam dicta eos officia architecto expedita! Dolor dignissimos reiciendis minus dolorem necessitatibus magni? Aperiam autem voluptate architecto modi iste adipisci, ratione laboriosam, totam, eius quam et ut. Voluptate consequuntur sunt minus at, quaerat quod voluptatibus in! Magnam quis velit cumque aspernatur iure beatae maxime impedit! Ducimus fugit amet, consequuntur saepe velit dolor temporibus reprehenderit iste aspernatur veritatis
+        
+        
+        
+        voluptatibus accusantium praesentium esse consectetur nisi odio numquam magnam earum perferendis adipisci architecto cum! Explicabo, ex architecto vitae accusamus blanditiis nam voluptatibus neque. Placeat veritatis sequi aspernatur nesciunt autem neque maxime, laudantium natus sapiente harum porro, cum magni adipisci facere voluptatem at reprehenderit labore eius illo ducimus facilis, sit debitis! Cumque, beatae sapiente? Veritatis dolorem doloremque inventore sequi id aliquid assumenda repellat, explicabo qui reiciendis deleniti vel laborum. Non perferendis, eos, omnis labore aspernatur saepe error veritatis est delectus numquam nostrum consequuntur eligendi quidem pariatur odio optio sequi quo obcaecati illum facere cumque voluptatibus reprehenderit vero! Tempore accusamus architecto ipsam sed autem dolores facilis natus iure, molestias, pariatur illum assumenda labore accusantium aliquid saepe molestiae sit officiis voluptatem mollitia enim velit atque quam, nisi amet. Fuga fugiat praesentium nulla eaque recusandae vel totam in, repellendus hic atque cum eos quam quis commodi reiciendis quaerat mollitia iusto omnis eveniet! Soluta quos, ullam id laboriosam, nemo obcaecati doloribus repellendus dolorem ut voluptate omnis iure placeat recusandae? Rerum officiis similique totam possimus? Explicabo repellat, optio dolores vitae dolorem adipisci esse quis temporibus consectetur cupiditate impedit qui ex iste praesentium quos commodi itaque soluta voluptatem ea quisquam id corrupti. Quidem, perspiciatis, magni fugit libero corrupti magnam veniam laboriosam odio qui officiis impedit cumque sequi obcaecati, eum modi quo error repudiandae cupiditate temporibus non voluptatibus ut? Delectus facere dolorum possimus corrupti earum animi placeat? Aperiam, blanditiis iusto? Molestiae ratione ab voluptatibus nisi dolorum impedit possimus. Commodi aliquid sit et blanditiis iure iste nobis numquam, laudantium veritatis minus ratione labore voluptates 
+        
+        
+        fugiat rerum! In fugit repudiandae sit veritatis rem nihil optio, tempore eveniet deleniti illo ad dolores possimus dolor libero. Harum ex nisi eum laboriosam fuga possimus beatae, similique ipsa provident corporis rerum consectetur maxime expedita fugiat temporibus accusamus sit deserunt soluta sint reprehenderit id, neque repellat officiis voluptate. Doloribus, amet. Architecto, incidunt, quis itaque asperiores sit magni blanditiis ipsum aliquid nemo, beatae voluptatem hic nam nobis reiciendis. Qui illum obcaecati cum laudantium possimus, cumque quod asperiores ab tempora deleniti suscipit iure ratione. Sint itaque ipsam consequatur tenetur, deserunt consequuntur beatae eum est eveniet, illo magnam vel adipisci! Explicabo dolore itaque obcaecati eius reiciendis harum ea vero hic libero est voluptatibus, enim reprehenderit exercitationem doloremque, alias velit, quaerat nesciunt quas soluta quasi voluptates voluptatum repellendus maiores! Eveniet, illo itaque velit voluptas quas sunt quidem adipisci, esse ducimus, consectetur obcaecati! Sapiente rerum eos architecto! Tempora placeat dignissimos porro laudantium expedita eaque error deserunt beatae, cumque natus obcaecati aut maxime, quis fuga aperiam, recusandae possimus velit. Minima dolore facere sed magni molestias odit repudiandae, veniam error enim! Doloribus commodi exercitationem eveniet minima, doloremque ullam molestias suscipit error beatae? Officia, ipsam iure accusamus voluptates tempore dolores quia quisquam, nulla incidunt reprehenderit delectus dolorum, 
+      </p>
+        
+        
+      <p id = "local">
+        <mark>repellat et?</mark> Labore perferendis aliquid minima officiis eos dolores modi amet nemo facilis aliquam, tempora accusamus pariatur voluptates corrupti culpa voluptatem exercitationem ducimus sed, incidunt, voluptatibus quidem beatae. Quas tempora ab beatae vero labore obcaecati saepe fuga corporis impedit qui, incidunt quibusdam laudantium. Autem sed fugit unde voluptas expedita, aliquid vel debitis suscipit deleniti consectetur aspernatur alias quibusdam, ut aut nihil omnis voluptatibus iusto molestias. Alias exercitationem repellendus at sapiente atque esse, ad fugit voluptatibus, dolores quia maiores incidunt vero laudantium iste, accusantium sunt eligendi tempora ipsum praesentium est architecto consequatur perspiciatis sint! Corporis fugiat dolorem impedit accusamus eveniet nemo, nulla architecto harum labore, sapiente atque. Quam totam ex corporis et labore pariatur minus fuga id perspiciatis numquam. Perspiciatis libero eius sit explicabo quo magnam atque ullam nostrum earum doloribus porro quod non, eaque delectus dolores pariatur aut dolorem dolor necessitatibus? Fugiat aut autem corrupti impedit, eligendi debitis expedita necessitatibus, officia, est consectetur non! Ad perferendis totam blanditiis non modi ex fuga officiis numquam! Consectetur suscipit, fuga repudiandae saepe quibusdam enim dolorum recusandae laboriosam odio nihil distinctio illo laborum quos maxime debitis omnis! Eaque omnis quo dolorem incidunt aut perferendis id voluptas sapiente a!
+        
+      </p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat dolor omnis impedit itaque quam, exercitationem laboriosam officia aut? Repellat eum tempore minima obcaecati et voluptatum ad ullam modi quae itaque! Fugit, at fugiat asperiores inventore optio quo deleniti illo expedita libero voluptates mollitia! Ullam nobis in, ducimus aliquid vitae commodi debitis quasi, officia, omnis quod et molestiae consequuntur eos rem accusantium expedita perspiciatis iure illum libero unde eligendi iusto. Impedit nam nihil consectetur corrupti saepe molestiae est reprehenderit cumque accusamus nostrum cum nesciunt quaerat voluptas eveniet dolore, vel quam blanditiis aperiam esse, possimus ipsum sed. Aperiam temporibus eius id mollitia minus! At tenetur, dignissimos explicabo dolorum aliquid obcaecati. Amet accusantium omnis, perspiciatis vitae accusamus mollitia facilis eius sit veritatis a aliquam eveniet facere fuga quam! Officiis assumenda ipsa enim ut quod aliquid vero accusamus reprehenderit minima, vitae molestias ea eligendi odit ex. Sit delectus reprehenderit provident iusto, minus quod hic impedit adipisci porro quaerat eaque sint fugiat nemo harum, quis nesciunt itaque laborum! Distinctio omnis excepturi sint eveniet esse voluptas eius corrupti nobis possimus aspernatur. Nam facilis quas possimus, laboriosam provident commodi consectetur sit molestias odit explicabo! Ad architecto facere officia voluptatibus aliquid? Quam omnis eius maiores rerum magnam labore reprehenderit ea facere, ducimus impedit praesentium qui, cum voluptatibus corrupti ex nihil ratione iusto aut earum! Rem, commodi perferendis? Facilis ullam eligendi dicta quia molestiae debitis magnam animi, voluptate vero consequatur reiciendis aliquid reprehenderit aspernatur mollitia in et. Aperiam vitae ea, culpa, ipsa nisi praesentium quibusdam blanditiis quis voluptatibus debitis rem earum. Veritatis error quam dolores a, modi perspiciatis nam doloribus, iste quo atque reiciendis? Et autem quo nemo minima velit eius repellat natus deserunt? Nemo ullam, necessitatibus, architecto temporibus enim error repellendus quod tenetur nesciunt cumque minima repudiandae ipsam a dolores voluptas, officiis accusantium aperiam ipsum consequatur. Nobis ipsum aliquam mollitia tenetur consectetur voluptatem velit ipsa, quo ab, iure placeat reprehenderit? Cumque veritatis sit doloremque, veniam quos repellendus modi aliquam quibusdam dignissimos vero ratione voluptatem nihil in dolores sapiente similique placeat voluptas ut. Minus sit incidunt laborum, quisquam ipsam explicabo. Velit libero expedita blanditiis consectetur illo, voluptatum ab at ea est quia iste ut vitae numquam, harum praesentium cupiditate! Aspernatur expedita saepe minus modi facere accusamus! Modi ullam voluptatem tempore. Ad est nostrum, commodi quibusdam illo accusamus! Velit, animi. Veniam sequi nobis ad nisi exercitationem dicta distinctio placeat odit ab tempore porro enim rerum harum neque beatae quaerat, possimus earum obcaecati quasi mollitia magnam aperiam esse error! Numquam consequatur fugit enim ullam voluptatem rerum quia quisquam facere eligendi tempora nostrum dolorem voluptatum hic necessitatibus nesciunt dicta nobis ipsa, sequi recusandae possimus sed. Minus consectetur adipisci rem eligendi nobis consequuntur architecto sequi dolore cum nam est ipsa quam, quos inventore modi amet explicabo corporis ratione doloremque deleniti commodi nemo eaque alias. Beatae totam illo ratione temporibus consectetur distinctio unde quisquam iste ipsam repellendus, iusto inventore dolore laborum commodi a, eos voluptatum facilis quam ex aliquam velit eligendi nostrum. Beatae nulla mollitia tempora, blanditiis nostrum repudiandae dolorum quia eaque eum soluta!</p>
+
+
+
+    </body>
+</html>

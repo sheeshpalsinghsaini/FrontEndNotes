@@ -1,0 +1,109 @@
+<!-- CSS -->
+
+<!-- 
+    Three ways to insert CSS into HTML
+     -External css[create external css file and link into html file]
+     -Internal css[in head section use style tage and write css properties]
+     -Inline css[inside the tage use style attribute]
+     {
+         -inline css has highest priority.
+         effect of internal/external-css on html work in top to bottom order,which is written in bottom
+         his effect is visible in html page
+     }
+------------------------------------------------------------------------------------------------------
+in html we style a particular element. so we need to select that element
+there are three way to select the element using css selector.
+" if three selector are apply at one tag then priority id>class>element"
+
+    -id selector[for particular element(#id_Name)/used one id one time in file]
+    -class selector[for select multiple tag(.class_Name)]
+    -Element selector[]
+
+----------------------------------------------------------------------
+                COLORS IN CSS   
+we can used color with different ways
+     -Predefined color names[140 color name only support ]
+     -RGB[rgb(red,green,blue) or rgb(0,0,0) or rgb(0,0,255)--color code]
+     -RGBA[rbg(red,green,blue,alpha(for transparent)) rbga(255,99,71,0.5)]
+     -HEX[#rrggbb 00-ff values red:#ff0000 black:#000000 white:#ffff]
+
+     -HSL[(hue,saturation,lightness) 
+     > Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green,
+      and 240 is blue.
+      Saturation is a percentage value, 0% means a shade of gray, and 100%
+      is the full color.
+      lightness is also a percentage, 0% is black, 50% is neither light or
+      dark, 100% is white. 
+      Example: hsl(0,100%,50%);
+     ]
+
+     -HSLA[(hue,saturation,lightness,alpha)
+      -alpha parameter is a number b/w 0.0(fully transparent) and 1.0
+      (not transparent at all).
+      Example: hsla(0,100%,50%,0.5);
+     ]
+    
+======================================Background============================================
+
+=====================================Margin & Padding=======================================
+marging is the gap b/w two container & Padding is the gap b/w content and it's container
+
+marging can be negative but padding doesn't negative
+
+
+marging colapse only in top and bottom. not in left right
+
+================================Box Model=====================================================
+In HTML Each and every element is a box which contain some marging, and padding. and content also.
+
+Note: when you set the width and height properties of an element with css, you just set the width and height of the content area. To calculate the full size of
+an element, you must also add padding, borders and margins.
+
+=> Total element width = width+left Padding+rightPadding+leftborder+rightborder+leftMargin+rightMargin
+
+=> Total elelment height = height+topPadding+bottomPadding+topborder+bottomBorder+topMargin+bottomMargin
+
+
+
+
+==================================CSS Units===================================
+=> We use length in width, height, margin, padding, font-size
+
+-> There are two types of units in CSS.
+     1)Absolute
+     2)Relative
+
+-------------------------------------------------------
+Absolute Unit in CSS            Relative Units in CSS|
+     1. Cm                          1. Em            |
+     2. Mm                          2. Rem           |
+     3. inch                        3. Vh            |
+     4. Px                          4. Vw            |
+     5. Pt                          5. %             |
+     6. P                                            |
+-------------------------------------------------------
+Absolute Units in CSS:
+1. cm
+2. mm
+3. In
+4. Px(1inch = 96px)//assume not fix vary screen to screen
+5. Pt(1inch = 72pt)
+6. Pc(1pc = 12pt)
+
+-----------------------------------------------------
+Relative Units in CSS.[relative to parent]
+1. em = em is relative to the size of direct parent
+2. rem = rem is only relative to root(html tag) size.
+3. Vh = 1% of view port height
+4. Vw = 1% of view port width
+5. % = relative to parent
+
+
+
+
+
+
+
+
+
+    -->

@@ -1,0 +1,44 @@
+a{
+    text-decoration:none;
+
+}
+
+a:link{
+    color: green;
+}
+
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+There are four stage of Link
+1> link[initial]
+2> visited
+3> :hover
+4> active(when mouse is comme up)
+
+Note if used link visited and hover then hover used alway bottom in link and visited.
+and acitive stage in last of all.
+
+
+*/

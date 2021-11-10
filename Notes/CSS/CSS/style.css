@@ -1,0 +1,67 @@
+
+/*=========================Selector==================== */
+
+/* p{
+    color:red;
+    /* color: green; 
+}
+*/
+/*
+#p3{
+    color:blue;
+}
+#h1{
+    font-size:50px;
+}
+
+
+.green-text{
+    color:green;
+}
+
+.bgcolor-h{
+    background-color: yellow;
+
+}
+
+.underline-h{
+    text-decoration:underline;
+} */
+
+
+/* ======================BACKGROUND-COLOR================== */
+/* #bg{
+    background-color:#FFA6D5;
+}
+*/
+body{
+    background-color:#69DADB;
+} 
+
+/* ====================BackGround Image=================== */
+
+#bg{
+    /* background-image: url("/CSS/images/pattern2-removebg-preview.png");
+    background-color:#FFA6D5; */
+
+    background-image: url("/CSS/images/pattern.png");
+    
+
+    /* background-image: url("/CSS/images/andrew-neel-cckf4TsHAuw-unsplash.jpg"); */
+    background-repeat:no-repeat;
+    /* background-position:5% 10%; */
+    /* background-position:center; */
+    background-position: right bottom;
+    /* background-size: 700px 500px; */
+    /* background-size:cover; */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    /* background-size:cover; */
+}
+
+#bg2{
+    background-image: url("/CSS/images/computer.jpg");
+    background-size:100% 100%;
+    /* background-attachment:scroll; */
+    background-attachment:fixed;
+}

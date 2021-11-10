@@ -1,0 +1,83 @@
+/* 
+---------------position properties-----------------
+there are four types of position
+1.static[default position of each tag]
+2.relative[current position/own position]
+Note:->when relative element shift then no anyone element come at this positon
+     ->
+
+
+
+3.fixed[]
+    Note:if any element position fixed then it free its occupie space and calculation start from body
+
+
+
+4.absolute[if parent is position then calculation start from its parent if not then search nearest position parent if not 
+present then it calculate according to body of html]
+Note:when absolute element shift then it free its occupie space and other element occupie it.
+
+four property work on last three 
+1.top
+2.bottom
+3.left
+4.right
+
+Note: if any element have relative,fixed,and absolute position then that element known as position element not in sattic case.
+*/
+body{
+    background-color:purple;
+    /* margin:0px; */
+    height:1000px;
+}
+#parent{
+    border:2px solid white;
+    padding:20px;
+    width:50%; 
+    background-color:black;
+    margin:200px;   
+    position:relative;
+}
+
+#one{
+    border:2px solid white;
+    width: 100px;
+    height:100px;
+    background-color:green;
+    margin:5px;
+    display:inline-block;
+
+}
+
+
+#two{
+    border:2px solid white;
+    width:100px;
+    height:100px;
+    background-color:aqua;
+    /* margin:5px; */
+    display:inline-block;
+    /* position:relative; */
+    /* left:100px;
+    top:100px; */
+
+    /* position:absolute;
+    left:0px;
+    top:0px; */
+
+    position:fixed;
+    bottom:10px;
+    right:10px;
+
+
+}
+
+#three{
+    border:2px solid white;
+    width:100px;
+    height:100px;
+    background-color:palevioletred;
+    margin:5px;
+    display:inline-block;
+
+}

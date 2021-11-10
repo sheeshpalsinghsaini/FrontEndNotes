@@ -1,0 +1,24 @@
+div{
+    /* !important remove all priority
+    if all property is with important 
+    then it work with priorith again.
+    */
+
+    /* important majorly ignore by developer
+    or minimum used because it create
+    distrbance
+     */
+    border:2px solid red !important;
+    padding:20px;
+    font-size:20px;
+}
+
+div{
+    /* !important remove all priority
+    if all property is with important 
+    then it work with priorith again.
+    */
+    border:2px solid purple !important;
+    padding:20px;
+    font-size:20px;
+}

@@ -1,0 +1,92 @@
+>Three ways to Insert CSS in HTML
+    -External CSS[Create Seperate css file]
+    -Internal CSS[Use style tag in head section]
+    -Inline CSS[use style Attributes in tags]
+
+=>Inline CSS have heighest priority
+=>in External and Internal css which is written in last that show its effect of page.
+
+=>if same property is apply multiple time at any tag then last property show its effect
+on page.
+--------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+=========================Selector=======================================
+There are lots of selector in css but mainly used three selector 
+1. Element Selector
+2. id Selector[use # symbol before id like #p3{color:red;}]
+3. class Selctor[use . symbol before class]
+
+Note: ->we can provide one id only for one element.but class can provide for multiple elements
+at single time.
+->we can use multiple class in single element. 
+->class and id can also use both at same time.
+example: <h1 id="h1" class="green-text bgcolor-h underline-h"></h1>
+->id selector have heighest priority then class then element.
+
+
+
+
+
+===========================Colors in CSS================================
+In CSS Colors can be specified using 
+    ->Predefined color names[white,red,etc....]
+    ->RGB
+    ->RGBA
+    ->HEX
+    ->HSL
+    ->HSLA
+
+>Modern browser support 140 named Colors
+
+1.  RGB
+   . rgb(red,green,blue)
+   . Color value between 0 and 255
+   . Black : rgb(0,0,0)
+   . Red : rgb(255,0,0)
+   . Green : rgb(0,255,0)
+   . Blue : rgb(0,0,255)
+
+
+2. RGBA
+    . rgba(red,green,blue,alpha)
+    . alpha parameter is a number between 0.0(fully transparent) and 
+      1.0(not transparent at all).
+    . rgba(255,99,71,0.4);
+
+3. HEX
+    . #rrggbb
+    . rr(red), gg(green) and bb(blue)
+    . hexadecimal values between 00 and ff (same as decimal 0-255)
+    . Red: #ff0000
+    . Black: #000000
+    . White: #ffffff
+
+4. HSL
+    . hsl(hue, saturation, lightness)
+    . hue, saturation, and lightness (HSL)
+    . Hue is a degree on the color wheel from 0 to 360.0 is red, 120 is green, 
+    240 is blue.
+    . Saturation is a percentage value, 0% means a shade of gray, and 100% is 
+    the full color.
+    . Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white.
+    . RED: hsl(0,100%,50%)
+
+5. HSLA
+    . hsla(hue, saturation, lightness, alpha)
+    . alpha parameter is a number between 0.0 (fully transparent) and 1.0
+    (not transparent at all)
+    .hsla(0,100%,50%,0.5)
+
+
+
+
+
+
+=================================Backgrounds==============================

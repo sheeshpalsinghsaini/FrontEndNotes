@@ -1,0 +1,55 @@
+body{
+    background-color:rgb(136, 255, 0);
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+#bg{
+    width: 80%;
+    margin:auto;
+    margin-top:50px;
+    background-color:rgb(0, 255, 255);
+    /* color:white; */
+
+    /* background-image:url('/images/computer.jpg'); */
+    background-image:url('/images/pattern-withoutbackground.png'), url('/images/cat.jpg');
+
+    /* -------------------------------------- */
+    
+    /* background-repeat:no-repeat; */
+    /* background-repeat:repeat-x;
+    background-repeat:repeat-y; */
+    background-repeat:no-repeat;
+    
+
+    /* -------------background-size------------------------- */
+    /* control background size */
+    /* for change size of background image */
+    /* background-size:700px 300px; */
+    /* background-size:50% 60%; */
+     /*cover property may be cutting image */
+     /*background-size:cover; */
+    /* contain property adjest the image to fill background but not cutting image that's why some time background not covered properly
+    so maitain ratio of container */
+     /* background-size:contain; */
+     background-size: 30% 30%,30% 20%;
+     
+
+    /* ---------------Chanage the position of background------------------- */
+
+    /* background-position:right top; */
+    /* background-position:right bottom; */
+    /* background-position:right center; */
+    /* background-position:center; */
+    /* background-position:100px 200px; */
+    /* background-position:20% 40%; */
+    background-position: left top, center;
+
+
+    /* ----------------------background Attachment----------------------- */
+    /* control text or image */
+    /* background-attachment:fixed; */
+
+}

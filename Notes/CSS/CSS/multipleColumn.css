@@ -1,0 +1,23 @@
+/* 
+write content like news papaers in column formate which is not in single line
+
+*/
+
+div{
+    column-count:3;
+    column-gap:50px;
+    /* column-rule-style:solid;
+    column-rule-width:2px;
+    column-rule-color:red; */
+
+    /* shortcut */
+    column-rule:2px solid blue;
+    column-width: 300px;
+}
+
+h1{
+    column-span:all;
+    text-decoration:underline;
+    color:purple;
+    text-align:center;
+}

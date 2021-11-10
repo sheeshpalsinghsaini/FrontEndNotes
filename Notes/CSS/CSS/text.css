@@ -1,0 +1,86 @@
+#text{
+    width:500px;
+    border:2px solid black;
+    /* text-align:justify; */
+    /* remove space b/w border */
+
+    /* direction:rtl; change direction */
+    display: inline-block;
+
+}
+
+img{
+    border:2px solid black;
+    /* vertical-align:top; */
+    vertical-align:middle;
+}
+
+#div2{
+    width: 500px;
+    border:2px solid blue;
+    margin-top:20px;
+    padding:20px;
+    display: inline-block;
+
+    /* text Decoration */
+    /* text-decoration:underline; */
+    /* text-decoration:overline; */
+    /* text-decoration:line-through; */
+
+    /* Text Transform */
+    /* text-transform:uppercase; */
+    /* text-transform:capitalize; */
+
+    /* line-height:30px; */
+    
+
+    /* text-indent:50px; */
+
+    /* letter-spacing:10px; */
+
+    /* word-spacing:10px; */
+
+
+    /* white-space: pre;  take content as it is in html*/
+    /* white-space:nowrap; */
+
+    /* word-wrap:break-word; if word
+    is greater than container width
+    then it break word into new line */
+
+}
+
+#shado{
+    display: inline-block;
+    font-size:70px;
+    text-shadow: 5px -5px 5px red;
+    /* horizantal vertical blur(0 not blur) color */
+}
+
+
+
+#div3{
+    width: 500px;
+    height: 500px;
+    display:inline-block;
+    border: 1px solid green;
+
+    /* writing-mode: vertical-lr; */
+    writing-mode: vertical-rl;
+}
+/* #verticalL{
+    writing-mode:vertical-lr;
+    border:2px solid red;
+   margin-top: 150px;
+    margin-left: 200px;
+    font-size:50px;
+    display: inline;
+}
+#verticalR{
+    writing-mode:vertical-lr;
+    border:2px solid red;
+   margin-top: 150px;
+    margin-left: 200px;
+    font-size:50px;
+    display: inline;
+} */

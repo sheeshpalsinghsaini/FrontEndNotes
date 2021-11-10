@@ -1,0 +1,58 @@
+@font-face{
+    font-family: abc;
+    src:url('/Fonts/OpenSans-Bold.ttf');
+}
+
+h1{
+    /* font-weight:lighter; */
+    /* font-weight: 20; */
+    /* font-family:'Poppins', sans-serif; */
+    font-family:abc;
+}
+
+p{
+    font-size:20px;
+    font-family:'Noto Sans', sans-serif;
+    /* font-weight:bold; */
+    /* font-weight change the darkness of font */
+    /* font-style:italic; */
+    /* font-variant:small-caps; all character caps with larger first character */
+    /* font-weight: 700; */
+}
+
+
+/* 
+we can change font-weight by two way
+
+1> by name
+2> by number
+
+
+Some browser doesn't support any types of font so we used font
+family with combile if one is not support then foll back to other
+
+if name of font is more than one word then used name in double quate.
+
+
+
+
+
+
+*/
+
+/* 
+for adding new font by from download . need to link that download file
+into html file
+
+we can used combine font.
+//you can download font from google font
+
+
+
+*/
+
+p{
+    /* short hank */
+    font: italic small-caps 600 20px abc;
+    /* style variant weight size font-family */
+}

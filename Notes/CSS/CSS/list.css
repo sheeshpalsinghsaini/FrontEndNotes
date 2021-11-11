@@ -1,0 +1,27 @@
+ul{
+    /* list-style-type:circle; */
+    /* list-style-type:none; */
+    /* list-style-type:square; */
+    /* list-style-type:armenian; */
+    list-style-type:circle; 
+    /* we can use image also here
+    list-style-image:url('address');
+    small size is needed;
+    */
+    list-style-position:inside;
+    
+}
+
+ol{
+    /* list-style-type:decimal-leading-zero; */
+    /* list-style-type:lower-alpha; */
+    /* list-style-type:upper-alpha; */
+    /* list-style-type:lower-roman; */
+    list-style-type:upper-roman;
+}
+
+li{
+    border:1px solid black; 
+    margin:2px;
+
+}

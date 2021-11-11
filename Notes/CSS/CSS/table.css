@@ -1,0 +1,25 @@
+table{
+    border:1px solid blue; 
+    border-collapse:collapse;
+    empty-cells:hide;  
+    width:300px;  
+    /* padding:10px; */
+    /* table-layout:fixed; */
+    table-layout:auto;
+}
+
+caption{
+    border:1px solid red;
+    caption-side:bottom;
+}
+td{
+    border:1px solid green;
+    padding:5px; 
+}
+th{
+    border:1px solid purple;
+    padding:5px;
+    /* text-align:justify; */
+    /* text-align:left; */
+    text-align:right;
+}

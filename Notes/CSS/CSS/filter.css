@@ -1,0 +1,23 @@
+img{
+    margin-top:200px;
+    margin-left: 500px;
+    /* filter:blur(10px); */
+    /* filter:brightness(80%); */
+    /* filter:contrast(120%); */
+    /* filter:drop-shadow(8px 8px 10px red); */
+
+    /* for black and white */
+    /* filter:grayscale(80%); */
+
+    /* filter:hue-rotate(80deg); */
+    /* filter:invert(100%); */
+    /* filter:opacity(30%); */
+    /* filter:saturate(30%); */
+    /* filter: brightness(40%),drop-shadow(8px 8px 10px red); */
+}
+
+/* 
+image sprite is a way of spliting a single image .
+but you know where to split image.x
+
+*/

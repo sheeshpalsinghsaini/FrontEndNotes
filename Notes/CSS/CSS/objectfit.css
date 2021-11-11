@@ -1,0 +1,29 @@
+/* object fit properties
+used only for image and 
+videos */
+
+img{
+    border:2px solid purple;
+    width: 500px;
+    height:300px;
+    /* object-fit: contain; */
+    /* 
+    contain show orignal img
+    but some blank space show
+    */
+    /* object-fit:fill;
+    change aspect ratio.
+    */
+    /* object-fit:cover;
+    cut images and fit
+    you can give position of
+    img view.
+    */
+
+    /* object-fit:cover;
+    object-position:top; */
+
+    object-fit:contain;
+    object-position:right;
+
+}

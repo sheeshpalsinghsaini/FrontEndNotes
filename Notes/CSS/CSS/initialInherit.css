@@ -1,0 +1,17 @@
+#green{
+    color:green;
+}
+
+#blue{
+color: red;
+}
+
+#initial{
+    /* inital take default css color */
+color:initial;
+}
+
+#inherit{
+    color:inherit;
+/* inherit parent color */
+}

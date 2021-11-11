@@ -1,0 +1,25 @@
+:root{
+    --primary-color:aqua;
+    --btn-color:purple;
+    --text-color:white;
+}
+
+
+#func{
+    background-color:var(--primary-color);
+    height:200px;
+    width:calc(100% - 100px);
+    /* 200px space remain as it is */
+}
+
+a{
+
+    padding:5px;
+    background-color:var(--btn-color);
+    /* color:black;     */
+    color:var(--text-color);
+    margin:20px;
+    text-decoration:none;
+    
+
+}

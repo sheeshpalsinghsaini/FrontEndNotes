@@ -1,0 +1,19 @@
+#div1{
+    height:500px;
+    border:1px solid purple;
+    /* background-image: linear-gradient(green, blue,white); */
+    /* background-image:linear-gradient(to right,green,blue,white); */
+    /* background-image:linear-gradient(to bottom right,green,blue,white); */
+    /* background-image:linear-gradient(40deg,rgb(129, 133, 129),blue,white); */
+
+
+
+    background-image:radial-gradient(circle, red 30%,white 30%,blue 40%);
+}
+
+
+h1{
+    text-align: center;
+    margin-top:200px;
+    font-size:50px;
+}

@@ -1,0 +1,26 @@
+/* 
+it is used only in block element. 
+overflow default is visible
+*/
+
+#overFlow{
+    color:blue;
+    background-color:aqua;
+    border:2px solid red;
+
+    width: 500px;
+    height: 300px;
+
+    /* overflow:visible; */
+    /* overflow:hidden; cutt extra content */
+
+    /* overflow:scroll; */
+
+    /* overflow-x:hidden;
+    overflow-y:scroll; */
+
+    overflow:auto;
+    
+
+
+}

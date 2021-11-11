@@ -1,0 +1,78 @@
+/* 
+syntax=>
+selector:pesudo-class{
+
+} like hover.
+
+
+
+*/
+input:focus{
+    border:2px solid red;
+}
+
+/* li:first-child{
+    color:red;
+}
+
+li:last-child{
+    color:green;
+}
+
+ by nth-child we can give number also 
+
+li:nth-child(4){
+    color:aqua;
+}
+
+*/
+
+li:nth-child(odd){
+    /* color:red; */
+    
+}
+li:nth-child(even){
+    /* color:red; */
+    
+}
+li:nth-child(4n+1){
+    /* (4+1)th position effected */
+    /* color:red; */
+    color:green;
+}
+
+
+/* pesudo-element used for css specific portion of element. */
+
+p::first-letter{
+    /* font-size:30px; */
+    
+    color:red;
+}
+
+p::first-line{
+    /* font-size:30px; */
+    font-size:10px;
+    color:red;
+}
+
+
+/* add content dynamically  */
+h1::before{
+    /* content:url(/images/cat.jpg); */
+    content:"using css ";
+    
+}
+h1::after{
+    /* content:url(/images/cat.jpg); */
+    content:" using css ";
+
+}
+
+
+/* change selction effect */
+
+::selection{
+    color:white;
+    background-color:green;
+}

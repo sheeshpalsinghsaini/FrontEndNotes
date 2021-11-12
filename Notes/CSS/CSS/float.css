@@ -1,0 +1,70 @@
+body{
+    background-color: aquamarine;
+}
+
+#img1{
+    float: right;
+}
+#img2{
+float: left;
+}
+
+img{
+    padding:20px;
+}
+
+ul{
+    background-color: green;
+    font-size: 20px;
+    list-style-type:none;
+    border: 2px solid red;
+    overflow:auto;
+
+}
+
+li{
+    color:white;
+    float:right;
+    padding:20px;
+}
+
+p{
+    border:1px solid black;
+    overflow:auto;
+    background-color: black;
+    color: greenyellow;
+    /* opacity: 0.8; */
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+img{
+    float:right;
+}
+
+/* used of clear */
+#content{
+width: 70%;
+background-color: green;
+height: 400px;
+float:left;
+}
+
+#sidebar{
+width: 30%;
+background-color: indianred;
+height: 150px;
+float: left;
+margin-top:50px;
+}
+
+#footer{
+        height:100px;
+    /* width: 200px; */
+    clear:both;
+    background-color: aqua;
+    font-size: 50px;
+    border:2px solid black;
+
+}

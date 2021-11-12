@@ -104,9 +104,28 @@ there are two type of gradient
      Linear Gradient -> work linearly
      Radial Gradient -> work radiusly
 
+========================Advance Selector=======================
+Pseudo Class and Pesudo Element
+     ->a:hover{color:blue;}
+     ->p:first-line{color:red;}
 
+Attribute Selector
+     ->a[href="https://example.com"]{ color:blue;} a->id or class or element
+Universal Selector
+     ->*{} selecte all 
+Combinator Selector
+     ->Descendant combinatory(Child at any stage)
+     .red-p span{color:green;     }
+     ->child combinatory (Direct Child)
+     .red-p > span{color:green;}
+     ->Adjacent combinatory(right after sibling)
+     .red-p + h1{color:gree;     } at same level
+     ->General sibling combinatory (all sibling)
+     .red-p ~h1{color:green;} select all at same level
 
-
+Add Selector[select multiple with comma]
+     ->General sibling combinatory(right after sibling)
+     .red-p, h1{color:red;     }
 
 
 

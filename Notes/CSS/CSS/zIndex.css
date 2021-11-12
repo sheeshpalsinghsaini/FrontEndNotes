@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+*{
+    padding:0px;
+    marging:0px;
+}
+#parent{
+    border: 1px solid black;
+    margin-top:100px;
+    margin-left:540px;
+    height:600px;
+    width:700px;
+    background-color:orange;
+    padding:20px;
+}
+
+
+#one{
+    width: 200px;
+    height: 200px;
+    background-color:pink;
+    display:inline-block;
+    position:relative;
+    z-index: 5;
+    /* z-index not work at static */
+
+}
+#two{
+    width: 200px;
+    height: 200px;
+    background-color:hsl(328, 94%, 26%);
+    display:inline-block;
+    position:relative;
+    top:100px;
+    left:-100px;
+    z-index: 4;
+}
+#three{
+    width: 200px;
+    height: 200px;
+    background-color:hsl(115, 100%, 25%);
+    display:inline-block;
+    position:relative;
+    top: 200px;
+    left: -200px;
+    z-index: 3;
+}
